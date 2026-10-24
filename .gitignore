@@ -9,3 +9,5 @@ android/key.properties
 *.jks
 *.keystore
 pubspec.lock
+.idea/
+*.iml
