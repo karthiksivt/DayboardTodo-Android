@@ -1,5 +1,7 @@
-plugins { id 'com.android.application' }
+plugins { id 'com.android.application'; id 'org.jetbrains.kotlin.android'; id 'dev.flutter.flutter-gradle-plugin' }
 
 android { namespace 'com.karthiksivt.dayboard.android'; compileSdk 34
     defaultConfig { applicationId 'com.karthiksivt.dayboard.android'; minSdk 23; targetSdk 34; versionCode 1; versionName '1.0.0' }
 }
+
+flutter { source '../..' }
